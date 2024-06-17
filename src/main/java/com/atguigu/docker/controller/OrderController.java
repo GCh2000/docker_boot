@@ -26,5 +26,5 @@ public class OrderController{
     @RequestMapping(value ="/order/index",method = RequestMethod.GET)
     public String index()
     {
-        return "服务端口号: "+"\t"+port+"\t"+UUID.randomUUID().toString();
+        return "服务端口号docker指令: "+"\t"+port+"\t"+UUID.randomUUID().toString();
     }}
